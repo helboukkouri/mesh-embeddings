@@ -1,8 +1,6 @@
 # MeSH Embeddings
 
-This is a repository containing code & pre-trained representations for the **Medical Subject Headings** (MeSH) thesaurus. These representations were trained using the **node2vec** algorithm with default parameters.
-
-For more details about node2vec please visit [this repository](https://github.com/aditya-grover/node2vec).
+This repository contains code & pre-trained representations for the **Medical Subject Headings** (MeSH) thesaurus. These representations were trained using the **node2vec** algorithm with default parameters. For more details about node2vec please visit [this repository](https://github.com/aditya-grover/node2vec).
 
 > **Note**: node2vec relies on an edge list to learn node representations. The edge list for MeSH can be constructed using the tree numbers from the xml file (`descYYYY.xml`) which is available [here](ftp://nlmpubs.nlm.nih.gov/online/mesh/MESH_FILES/xmlmesh/). In order to enable anybody to train their own MeSH representations, the edge list for `desc2020.xml` is shared along with the pre-trained representations.
 
